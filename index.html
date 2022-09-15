@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fırat Çetin | Web Geliştirme</title>
+    <!-- bir proje oluştururken ilk olarak meta etiketleriyle işe giriş yap  -->
+    
+    <meta name="keywords" content= "django,css,html,javascript">
+    <meta name = "description" content = "Fırat Çetin | Web Geliştirme" >
+    <!-- Kullanacağın fontu seçtikten sonra buraya ekle: -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@400;700&family=Joan&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome ı dahil et -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+    <!-- ardından csslerin için bir klasör aç ve main.css ve global.css olarak iki dosya kur -->
+    
+    <!-- Ardından ise globali ve maini dahil et sıralama global, main ve diğerleri şeklinde olmalı -->
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <!-- Tablet İçin -->
+
+    <link rel="stylesheet"  href="./css/tablet.css">
+
+    <!-- Telefonlar için  -->
+    <link rel="stylesheet"  href="./css/mobile.css">
+
+    <!-- Buraya kadar geldikten sonra öncelikli işin main.css'te html taginde varsayılan fontu değiştirmek olsun -->
+
+    <!-- Sıra projeye hazırlanmak için tüm marjinleri paddingleri sıfırlamakta bunun için main.css e git  -->
+
+</head>
+<body>
+    
+    <!-- İlk olarak sayfamızın üst kısmından başlayalım header etiketini at ve nav etiketi ile başla -->
+    <header class= "bg-dark-purple">
+        <div class="container">
+            <nav id= "navbar">
+            <div class="logopart">
+            <img src="./images/—Pngtree—creative company_1420804.png" alt="Logo" class = "navbar-logo">
+            <h1 class = "navbarheading heading-small">  Fırat Çetin</h1>
+            </div>
+            
+
+            <ul>
+                <li> <a href="./index.html">Ana Sayfa</a> </li>
+                <li> <a href="./trainings.html">Eğitimler</a> </li>
+                <li> <a href="./courses.html">Kurslar</a> </li>
+                <li> <a href="./contact.html">İletişim</a> </li>
+            </ul>
+        
+        </nav>
+        
+        </div>
+        
+        
+
+    </header>
+
+    <section>
+    
+    <!-- Artık içindekiler ve tanıtım kısmını kodlayacağımızdan section kısmına geçebiliriz. -->
+    <div class="top">
+       <div class="empty"></div>
+    
+        <div id="home" >
+            <img src="./images/IMG_3186.jpeg" style = "height: 30rem" alt="Fırat Çetin Çizim">
+
+            <h2 class = "heading-big">Fırat Çetin</h2>
+
+            <p>Electrical & Electronics Engineer|Freelancer</p>
+
+            <a href="#courses">Kurslara Git</a>
+
+        
+    
+        </div>
+         <div id="news">
+            <h2 style="color:white" class = "heading-small">Öne Çıkan Kurslar</h2>
+            <ul>
+                <li> 
+                <div class="textcentered courselist">
+                    
+                    
+                    <a href="#courses" class= "textcentered"> <img src="./images/htmllogo.png" alt="Kurs Logosu" class="courseicon"> <p>Full HTML Kursu A'dan Z'ye</p></a>
+                
+                </div>
+                
+                
+                 </li>
+                 <li> 
+                <div class="textcentered courselist">
+                    
+                    
+                    <a href="#courses" class= "textcentered"> <img src="./images/css3logo.png" alt="Kurs Logosu" class="courseicon"> <p>Full CSS3 Kursu 0'dan Uzmana</p></a>
+                
+                </div>
+                
+                
+                 </li>
+
+                 <li> 
+                <div class="textcentered courselist">
+                    
+                    
+                    <a href="#courses" class= "textcentered"> <img src="./images/jslogo.png" alt="Kurs Logosu" class="courseicon"> <p>Full JavaScript Kursu Programlamaya Atıl!</p></a>
+                
+                </div>
+                
+                
+                 </li>
+        
+        
+            </ul>
+    
+    
+        </div>
+    
+    
+    
+    
+    </div>
+    
+    <div class="social">
+        <div class="instagramlinkdiv">
+            <a href="https:/www.instagram.com/"> <img src="./images/instagramlogo.png" alt="Instagram Contact" class = "instagram-link"> </a>
+            <p>Instagram</p>
+        
+        </div>
+        <div class="twitterlinkdiv">
+            <a href="https:/www.twitter.com/"> <img src="./images/twitterlogo.png" alt="Twitter Contact" class = "twitter-link">  </a>
+            <p>Twitter</p>
+        </div>
+        <div class="facebooklinkdiv">
+            <a href="https:/www.facebook.com/"> <img src="./images/facebooklogo.png" alt="Facebook Contact" class = "facebook-link">  </a>
+            <p>Facebook</p>
+        </div>
+    
+    </div>
+
+    <div class="about">
+    <h2 class="textcentered">Hakkımda</h2>
+    <p>
+    Ben amacı tamamıyla yazılım öğretmek ve bu alanda gelişmek olan bir öğrenciyim. Eğitimimi Dokuz Eylül Üniversitesi Elektrik Elektronik Mühendisliği bölümünde almaktayım.
+    Yazılım alanına olan ilgimi ilk defa veri bilimi ile ilgili araştırmalar yaptığımda fark ettim. Bu araştırmalar beni o tarafa ittirse de ve nihai hedefim o olsa dahi
+    web üzerine çalışmak da çok çekici gelmekteydi. Sonra kendime sordum: neden ikisi üzerinde de çalışmıyorum? Herhangi bir engel yoktu. İşte şimdi benim keşfettiğim gibi
+    diğer insanlar da bu alana olan yeteneklerini ve ilgilerini keşfedebilsinler diye yaymaya çalışıyorum bu alanı.
+    
+    </p>
+    
+    
+    </div>
+
+
+    </section>
+    
+
+        
+
+</body>
+</html>
