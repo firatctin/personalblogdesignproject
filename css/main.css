@@ -1,0 +1,460 @@
+html{
+    font-family: 'Anek Malayalam', sans-serif;
+}
+
+/*Marjinleri ve paddingleri sıfırlamak  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/*NAVBAR*/
+
+/*Navbarı stillendirmeye başlıyoruz*/
+
+
+#navbar {
+    color: #fff;
+    /* yan yana dizmek içinn*/
+    display: flex; 
+    justify-content: space-between;
+    /* sağ tarafa atmak için */
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+    
+
+}
+
+#navbar ul{
+    /* liste noktalarını kaldırmak için */
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+}
+
+#navbar ul li a{
+    padding: 0.75rem;
+    /*Yazıları ayırmak için kullanıyoruz*/
+}
+
+/*Yazıların ortada olması için bir container oluşturabiliriz bunun için de global.css i kullanalım*/
+
+
+#navbar ul li a:hover{
+    background-color: rgb(197, 125, 228);
+    border-radius: 4px;
+    /*Elementlerin üstüne gelinince renk değiştirmesi için*/
+}
+
+.navbar-logo{
+    height: 50px;
+    margin: 0;
+    
+}
+h1.navbarheading{
+    margin-top: 0.5rem;
+}
+.logopart{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*Home Section*/
+div.top{
+    display: flex;
+    text-align: center;
+    
+    
+}
+div.empty{
+    width: 15rem;
+    border: 1px;
+    margin-top: 5rem;
+    margin-right: 1.5rem;
+    display: inline-block;
+    
+}
+#news{
+    background-color:  rgb(197, 125, 228);
+    list-style: none;
+    height: fit-content;
+    width: 15rem;
+    border: 1px solid grey ;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 5rem;
+    margin-right: 1.5rem;
+    
+}
+#news h2{
+    text-align: center;
+    border-bottom:1px solid rgb(175, 172, 172) ;
+    width: fit-content;
+    margin: auto ;
+    margin-bottom: 0.5rem;
+}
+#news ul{
+    list-style: none;
+}
+
+
+#home{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid rgb(197, 125, 228) ;
+    width: 30rem;
+    margin: 0 auto;
+
+    
+}
+
+#home h2{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+#home p{
+    font-style: italic;
+}
+
+#home img{
+    /*Oval yapmak için:*/
+    border-radius: 100%;
+}
+#home a{
+    color: rgb(175, 172, 172);
+    margin-bottom: 0.45rem;
+}
+
+#home a:hover{
+    border-bottom: 1px solid rgb(175, 172, 172);
+    margin-bottom: 0.4rem;
+}
+
+div.social{
+    display: flex;
+    margin: 0;
+    
+    width: 30rem;
+    justify-content:space-between;
+    align-items:flex-start;
+    margin:  auto;
+    padding: 1rem;
+    border-bottom: 1px solid rgb(197, 125, 228) ;
+    padding-bottom: auto;
+}
+
+div.social a img.instagram-link{
+
+    border-radius: 100%;
+    height: 3rem;
+    
+}
+div.instagramlinkdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:rgb(175, 172, 172);
+    width: 5rem;
+    height: 5.5rem;
+    border-radius: 5px;
+}
+
+div.instagramlinkdiv:hover{
+
+    background-color:rgb(197, 125, 228);
+    color: white;
+}
+
+div.twitterlinkdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:rgb(175, 172, 172);
+    width: 5rem;
+    height: 5.5rem;
+    border-radius: 5px;
+}
+
+div.twitterlinkdiv:hover{
+
+    background-color:rgb(197, 125, 228);
+    color: white;
+}
+
+div.social a img.twitter-link{
+
+    border-radius: 100%;
+    height: 3rem;
+}
+
+
+div.facebooklinkdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:rgb(175, 172, 172);
+    width: 5rem;
+    height: 5.5rem;
+    border-radius: 5px;
+}
+
+div.facebooklinkdiv:hover{
+
+    background-color:rgb(197, 125, 228);
+    color: white;
+}
+
+div.social a img.facebook-link{
+
+    border-radius: 100%;
+    height: 3rem;
+}
+
+div.about{
+    width: 33%;
+    margin: 5px auto;
+}
+
+body#trainingbody{
+    background: url("/images/piqsels.com-id-sujvm.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div#itemsheading{
+    color:white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+
+}
+div#itemsheading h1{
+    border-bottom: 1px solid rgb(197, 125, 228);
+    width: fit-content;
+}
+.training-tumbnail{
+    height:10rem;
+    border-radius: 100%;
+}
+
+.trainingarticles{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 5rem;
+    color: white;
+    
+
+    
+}
+.trainingarticles h2{
+    border-bottom: 1px solid rgb(197, 125, 228);
+
+}
+
+div.itemdiv{
+    width:auto; 
+    margin:1rem;
+    width: 33%;
+    background-color: rgba(197, 125, 228,0.3);
+    
+    border: 1px solid rgb(156, 13, 218);
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+div.trainingdescription{
+    color:white;
+    text-align: center;
+
+}
+.trainingdescription h2{
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgb(197, 125, 228);
+    width:fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Courses*/
+
+.coursesheading{
+    margin:0.5rem;
+    border-bottom: 1px solid rgb(197, 125, 228);
+    display: inline-block;
+    width: fit-content;
+    font-size: 2rem;
+
+    
+}
+div.courses{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchbar{
+
+    width: 15rem;
+    
+    
+}
+.searchbutton:hover{
+    cursor: pointer;
+    
+}
+.searchbutton{
+    background: none;
+    border:none;
+}
+.searchbarinput{
+    border: 1px solid rgb(197, 125, 228);
+    border-radius: 5px;
+    width: 10rem;
+}
+
+.searchbarinput:focus{
+    border: 2px solid rgb(197, 125, 228);
+    border-radius: 5px;
+    outline: none;
+}
+.coursesimage{
+    height:7rem;
+    border-radius: 100%;
+}
+div.courseslist{
+    background-color: rgba(197, 125, 228,0.8);
+    text-align: center;
+    justify-content: center;
+}
+div.courseslist ul li{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+    border-bottom: 1px solid rgb(156, 13, 218);
+    border-right: 1px solid rgb(156, 13, 218);
+    border-radius: 5px;
+    border-top: 1px solid rgb(156, 13, 218);;
+    
+}
+
+div.courseslist ul li:hover{
+    color: rgb(156, 13, 218);
+    background-color: rgba(175, 172, 172,0.5);
+}
+.courseatags{
+    color: rgba(156, 13, 218,0.5)
+}
+
+div.courseslist ul li h4{
+    border-bottom: 1px solid rgb(197, 125, 228);
+    
+}
+form.filter{
+    margin-right: 5rem;
+    padding: 1rem;
+    border: 1px solid rgba(156, 13, 218,0.5);
+    background-color: rgb(197, 125, 228);
+    border-radius: 5px;
+}
+#coursesbody{
+    background-image: url("/images/13038.jpg");
+    background-size: cover ;
+    background-repeat: no-repeat;
+    
+}
+
+div.categorize{
+    order:1;
+}
+
+/* Contacts */
+
+body#contacts{
+    background-image: url("/images/customer_service_generated.jpg");
+    background-size: cover;
+}
+
+h1.contact{
+    
+    border-bottom: 1px solid rgb(197, 125, 228);
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding-bottom: 1px;
+}
+div.contact{
+    display: flex;
+    width: fit-content;
+    margin: 2rem auto;
+    background-color: rgba(197, 125, 228,0.8);
+    border-radius: 5px;
+    flex-grow: 1;
+    color:white;
+    
+}
+div.contactform{
+    display:block;
+    border-left: 1px solid rgb(156, 13, 218);
+    padding-left: 1rem;
+    
+}
+
+form.content{
+    display: block;
+}
+form.content label{
+    display: block;
+}
+form.content input, form.content textarea{
+    border: 2px solid rgb(156, 13, 218);
+    border-radius: 5px;
+    
+}
+form.content input:focus, form.content textarea:focus{
+
+    outline: rgba(156, 13, 218);
+    background-color: rgba(156, 13, 218,0.5);
+    color:white;
+}
+div.submitbuttondiv{
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    width: fit-content;
+    margin-bottom: 1rem;
+}
+
+input.submitbutton{
+    color: white;
+    background-color: rgb(197, 125, 228);
+    cursor: pointer;
+    width: 10rem;
+    text-align: center;
+    justify-content: center;
+}
+div.adresses{
+    margin-right: 1rem;
+    flex-grow: 1;
+}
+
+
+

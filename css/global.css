@@ -1,0 +1,83 @@
+/* Her tarafta kullanacağımız classları yazmamız için bu css i kullanmamız gerekir 
+örneğin bir çok ortalamak istediğimiz etiketimiz olabilir ve bunların hepsine text-center 
+classini veririz ve onu burada biçimlendiririz böylece kod tekrarından kaçınmış oluruz.
+
+
+
+*/
+
+.text-center{
+    text-align: center;
+}
+
+.heading-small{
+    font-size: 1.25rem;
+}
+
+.heading-medium{
+    font-size: 1.5rem;
+}
+
+.heading-big{
+    font-size: 1.75rem;
+}
+    
+
+
+/* Colors */
+
+.bg-dark-purple{
+    background-color: rgb(156, 13, 218);
+}
+
+.bg-light-purple{
+    background-color: rgb(197, 125, 228);
+}
+
+/*Container*/
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+
+}
+
+/* Bu container'ı ortada kalmasını istediğin her şey için kullanabilirsin sadece bir div aç ve içine at bunu navbara yaptın */
+
+.courseicon{
+    height: 3rem;
+    border-radius: 100%;
+    margin: 0.2rem 0.2rem
+}
+.textcentered{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.courselist{
+    width: fit-content;
+    border-bottom: 1px solid rgb(175, 172, 172);
+    margin-top: 5px;
+
+}
+.whitecolor{
+    color:white;
+}
+
+.atags{
+    color: rgb(175, 172, 172);
+
+}
+.atags:hover{
+    border-bottom: 1px solid rgb(197, 125, 228);
+}
+
+.block{
+    display: block;
+}
+
+div.first{
+    
+    display: flex;
+    justify-content:space-between;
+}

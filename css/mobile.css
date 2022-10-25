@@ -1,0 +1,65 @@
+/*Navbarı düzenleyeceğiz ve sütun olarak gözükmesini sağlayacağız*/
+@media (max-width:500px){
+    #navbar{
+        flex-direction: column;
+        overflow: hidden;
+        height: fit-content;
+        /*Taşmaları engellemek için kullanıyoruz*/
+    }
+    
+    
+    
+    div.first{
+        display:block;
+    }
+    div.categorize{
+        margin:1rem;
+
+    }
+
+    div.trainingarticles{
+        display: block;
+        margin: 1rem;
+    }
+    div.itemdiv{
+        display: block;
+        width: auto;
+    }
+    div#news{
+        display:none;
+    }
+    div#home{
+        margin: auto;
+    }
+    div.about{
+        width: 50%;
+        margin: 5px auto;
+        font-size: 0.75rem;
+
+    }
+    div.contact{
+        display: block;
+        margin: auto auto;
+        margin-top: 2rem;
+        text-align: center;
+        justify-content: center;
+
+    }
+    div.contactform{
+        border:none;
+        border-top: 1px solid rgb(156, 13, 218);
+    }
+    body.contacts{
+        
+        background-position: center;
+    }
+    div.adresses{
+        margin-left: 1rem;
+        text-align: center;
+        justify-content: center;
+    }
+    
+}
+
+
+
